@@ -12,7 +12,7 @@ input.onButtonPressed(Button.A, function () {
         thousands += -1
         to_change = thousands
     } else {
-    	
+        basic.showString("" + (money))
     }
 })
 input.onButtonPressed(Button.B, function () {
@@ -29,7 +29,7 @@ input.onButtonPressed(Button.B, function () {
         thousands += 1
         to_change = thousands
     } else {
-    	
+        basic.showString("" + (money))
     }
 })
 input.onGesture(Gesture.Shake, function () {
